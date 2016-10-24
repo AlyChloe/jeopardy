@@ -1,0 +1,29 @@
+#submitButton {
+  text-align: center;
+  border: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  color: white;
+  width: 200px;
+  height: 100px;
+  background: $pink;
+  margin: 30px;
+  padding: 16px;
+  font-size: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 0px 0px darken($pink, 5%), 0px 0px 20px 0px #bbb;
+
+  transition: all 0.2s;
+
+  //box-shadow: 0px 15px 0px 0px darken($blue-sky, 5%);
+
+  &:active {
+    top: 108px ;
+    box-shadow: 0px 7px 0px 0px darken($pink, 5%);
+  }
+
+  &:active, &:focus {
+    outline: none;
+  }
+}

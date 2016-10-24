@@ -1,0 +1,141 @@
+@import "https://fonts.googleapis.com/css?family=David+Libre";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  background: #eee;
+  font-family: 'David Libre', serif;
+  padding: 25px;
+  text-align: center; }
+
+.people-count {
+  font-size: 20px;
+  line-height: 55px; }
+
+button {
+  background: #129793;
+  border: 1px solid #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1.25px;
+  padding: 10px;
+  transition: background 0.25s ease; }
+  button:hover {
+    background: #15aea9; }
+
+.delete-button {
+  background: #900;
+  bottom: 15px;
+  color: #fff;
+  display: none;
+  position: fixed;
+  right: 10px;
+  z-index: 2; }
+  .delete-button:hover {
+    background: maroon; }
+
+.people-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.person-container {
+  background: #e5e5e5;
+  border: 1px solid #444;
+  display: none;
+  float: left;
+  margin: 15px 10px;
+  padding: 15px 10px;
+  position: relative;
+  transition: all .5s ease;
+  width: 285px; }
+  .person-container.active {
+    background: #e59e9e;
+    border: 1px solid #900; }
+    .person-container.active .close {
+      display: none; }
+    .person-container.active p, .person-container.active h3 {
+      opacity: .35; }
+    .person-container.active img {
+      opacity: .1; }
+  .person-container .close {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 7.5px; }
+    .person-container .close a {
+      color: #333;
+      text-decoration: none; }
+  .person-container img {
+    border-radius: 50%;
+    opacity: 1;
+    transition: opacity .5s ease; }
+  .person-container .full-name {
+    border-bottom: 1px solid #129793;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-bottom: 7.5px;
+    padding-bottom: 7.5px;
+    text-transform: capitalize; }
+  .person-container .person-details {
+    text-align: left; }
+    .person-container .person-details p {
+      padding: 3px 0; }
+      .person-container .person-details p span {
+        display: inline-block;
+        font-weight: bold;
+        min-width: 50px;
+        text-transform: capitalize; }
+
+.loader {
+  display: inline-block;
+  height: 100px;
+  padding: 1em;
+  text-align: center;
+  vertical-align: top;
+  width: 20%; }
+  .loader svg path,
+  .loader svg rect {
+    fill: #129793; }
+
+/*# sourceMappingURL=main.css.map */

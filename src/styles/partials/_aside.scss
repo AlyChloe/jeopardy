@@ -1,0 +1,24 @@
+aside {
+  text-align: center;
+
+  h2 {
+    padding-bottom: 15px;
+    font-size: 28px;
+  }
+
+  .stats {
+    h3 {
+      display: inline-block;
+      font-size: 28px;
+    }
+
+    h3:first-child {
+      padding-right: 15px;
+      color: $blue;
+    }
+
+    h3:last-child {
+      color: #ae0000;
+    }
+  }
+}

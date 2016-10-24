@@ -1,0 +1,15 @@
+.main-container {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(#ffffff, #f9c013);
+
+  .red {
+    background: linear-gradient(#ffffff, #ae0000);
+  }
+  header {
+    padding: 15px 30px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
