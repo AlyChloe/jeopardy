@@ -2,7 +2,7 @@
 > *This project was my aha moment for object prototype and constructors. Let's just say, I celebrated my victory!*
 
 ### Week 6 Assignment
-**Mission**: Create a TODO list app which allows a user to add, edit, delete, or complete an item.
+**Mission**: Use a Jeopardy question API to make a simple quiz game.
 
 ##### TODO:
  - ~~Create a game constructor~~
