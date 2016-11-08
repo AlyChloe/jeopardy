@@ -129,7 +129,6 @@
       question: data[0].question,
       answer: data[0].answer
     };
-    console.log(this.context);
     this.parent = parent;
 
     this.buildQuestionTemplate = function() { // creating method to prototype
